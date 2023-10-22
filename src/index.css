@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .my-container {
+    @apply w-full max-w-4xl lg:max-w-5xl mx-auto px-6;
+  }
+}
+
+.bg-image{
+  background-image: url('https://w.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+  z-index: -999;
+}
